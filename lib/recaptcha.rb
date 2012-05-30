@@ -11,10 +11,9 @@ module Recaptcha
     STRING = [MAJOR, MINOR, TINY, PATCH].join('.')
   end
 
-  
-  RECAPTCHA_API_SERVER        = 'http://api.recaptcha.net';
-  RECAPTCHA_API_SECURE_SERVER = 'https://api-secure.recaptcha.net';
-  RECAPTCHA_VERIFY_SERVER     = 'api-verify.recaptcha.net';
+  RECAPTCHA_API_SERVER        = 'http://www.google.com/recaptcha/api'
+  RECAPTCHA_API_SECURE_SERVER = 'https://www.google.com/recaptcha/api'
+  RECAPTCHA_VERIFY_SERVER     = 'http://www.google.com/recaptcha/api/verify'
 
   SKIP_VERIFY_ENV = ['test', 'cucumber']
 
